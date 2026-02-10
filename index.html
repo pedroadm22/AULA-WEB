@@ -3,34 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Academia Web HERO</title>
+    <title>Página Interativa</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>🦸 Academia Web HERO</h1>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
-        </nav>
+        <h1 id="titulo">🦸 Academia Web HERO</h1>
     </header>
     
     <main>
-        <section class="hero">
-            <h2>Bem-vindo, Herói!</h2>
-            <p>Aprenda desenvolvimento web de forma gamificada.</p>
-        </section>
+        <button id="mudarTitulo">Mudar Título</button>
+        <button id="adicionarItem">Adicionar Item</button>
+        <button id="mudarCor">Mudar Cor</button>
         
-        <section class="cards">
-            <div class="card"><h3>HTML5</h3><p>Estrutura</p></div>
-            <div class="card"><h3>CSS3</h3><p>Estilo</p></div>
-            <div class="card"><h3>JavaScript</h3><p>Interatividade</p></div>
-        </section>
+        <input type="text" id="meuInput" placeholder="Digite algo...">
+        <p id="resultado"></p>
+        
+        <ul id="lista"></ul>
     </main>
     
-    <footer>
-        <p>© 2026 Academia Web HERO</p>
-    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
