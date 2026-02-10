@@ -36,4 +36,3 @@ document.addEventListener('DOMContentLoaded', function() {
         resultado.textContent = `Você digitou: ${input.value}`;
     });
     
-});
